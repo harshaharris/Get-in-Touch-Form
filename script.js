@@ -3,7 +3,7 @@ const form = document.getElementById("contactForm");
 form.addEventListener("submit", function (e) {
   e.preventDefault();
 
-  // Reset error messages
+ 
   document.getElementById("nameError").textContent = "";
   document.getElementById("emailError").textContent = "";
   document.getElementById("messageError").textContent = "";
